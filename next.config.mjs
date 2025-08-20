@@ -6,10 +6,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true, // Skip ESLint errors during build
   },
-  i18n: {
-    locales: ['en'],
-    defaultLocale: 'en',
-  },
+  // Note: i18n configuration is not supported in App Router
+  // For internationalization in App Router, use next-intl or similar libraries
 };
 
 export default nextConfig;
